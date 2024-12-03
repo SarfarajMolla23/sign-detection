@@ -1,19 +1,54 @@
-﻿# Gesture Detection
+# Gesture Detection
 
-The ssd_mobilenet_v2_coco model is a Single-Shot multibox Detection (SSD) network intended to perform object detection. The model has been trained from the Common Objects in Context (COCO) image dataset.
+This project utilizes the **SSD MobileNet V2 COCO** model for real-time object detection, specifically for gesture recognition. The model is trained on the **COCO** (Common Objects in Context) dataset, enabling the detection of various objects in images and video streams.
 
-Tehnologies used:
+## Technologies Used:
+- **Python 3.10**
+- **OpenCV**
+- **TensorFlow 2.10.0**
 
-  1. Python 3.10
-  2. OpenCV 
-  3. TensorFlow 2.10.0
+## Steps to Run:
 
-Steps to run:
+1. **Clone this Repository**  
+   Clone the repository to your local machine using:
+   ```bash
+   git clone https://github.com/your-username/repository-name.git
+   ```
 
- 1. Clone this repository into your local system.
- 2. Create a virtual environment using python3 -m venv /path/to/new/virtual/environment.
- 3. Activate the virtual environment using the command .\venv\Script\activate.
- 4. Open the scripts in jupyter notebook and run all cells.
+2. **Create a Virtual Environment**  
+   Create a virtual environment to manage dependencies:
+   ```bash
+   python3 -m venv /path/to/new/virtual/environment
+   ```
+
+3. **Activate the Virtual Environment**  
+   Activate the virtual environment:
+   - On Windows:
+     ```bash
+     .\venv\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```bash
+     source venv/bin/activate
+     ```
+
+4. **Install Required Dependencies**  
+   Install the necessary Python packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. **Run the Jupyter Notebook**  
+   Open the project folder in Jupyter Notebook, and run all the cells to start the gesture detection process.
+
+---
+
+Make sure you add a `requirements.txt` file in your repository to list the dependencies, for example:
+
+```txt
+tensorflow==2.10.0
+opencv-python
+```
 
 Demo Images:
 ![Screenshot 2024-12-03 135446](https://github.com/user-attachments/assets/5573ad2e-1e82-4116-9aa1-4fb6e533b71c)
